@@ -62,6 +62,7 @@ public class TasksController {
 		} finally {
 			model.addAttribute("todos", getTodos());
 		}
+		
 	}
 	
 	@GetMapping("delete/{id}")
